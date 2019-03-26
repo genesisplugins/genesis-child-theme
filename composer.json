@@ -1,5 +1,5 @@
 {
-  "name": "genesisplugins/genesis-customizer",
+  "name": "genesisplugins/genesis-customizer-theme",
   "authors": [
     {
       "name": "genesisplugins",
@@ -8,17 +8,8 @@
   ],
   "require": {
     "php": ">=5.6",
-    "genesisplugins/installer": "@dev"
+    "genesisplugins/installer": "dev-master"
   },
-  "repositories": [
-    {
-      "type": "path",
-      "url": "../../temp/genesisplugins/installer",
-      "options": {
-        "symlink": true
-      }
-    }
-  ],
   "autoload": {
     "files": [
       "../genesis/lib/init.php"

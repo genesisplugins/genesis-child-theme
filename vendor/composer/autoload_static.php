@@ -8,7 +8,7 @@ class ComposerStaticInitb9d45c20c47d7f49ff1a700f3795354c
 {
     public static $files = array (
         '0c31565011fdc73de6da99cb05a94615' => __DIR__ . '/..' . '/genesisplugins/installer/installer.php',
-        'e211d1127d492c174ff68d9c4e042413' => __DIR__ . '/../..' . '/../genesis/lib/init.php',
+        '8f8c825b708b062bca898c7d5365d10c' => __DIR__ . '/../..' . '/../genesis/lib/init.php',
     );
 
     public static $classMap = array (
