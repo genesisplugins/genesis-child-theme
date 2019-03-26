@@ -39,6 +39,11 @@ phpcs.xml.dist export-ignore
 package-lock.json export-ignore
 package.json export-ignore
 
+/vendor/bin/ export-ignore
+
+/vendor/composer/installed.json export-ignore
+/vendor/composer/LICENSE export-ignore
+
 /vendor/afragen/wp-dependency-installer/example-plugin/ export-ignore
 /vendor/afragen/wp-dependency-installer/composer.json export-ignore
 /vendor/afragen/wp-dependency-installer/LICENSE export-ignore
@@ -49,4 +54,4 @@ package.json export-ignore
 /vendor/collizo4sky/persist-admin-notices-dismissal/composer.json export-ignore
 /vendor/collizo4sky/persist-admin-notices-dismissal/README.md export-ignore
 
-/vendor/genesisplugins/installer/composer.json
+/vendor/genesisplugins/installer/composer.json export-ignore
