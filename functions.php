@@ -3,7 +3,6 @@
  * Genesis Customizer
  *
  * This file adds functions to the Genesis Customizer theme.
- * Place all of your custom code snippets below.
  *
  * @package GenesisPlugins\GenesisCustomizer
  * @author  GenesisPlugins
@@ -11,5 +10,5 @@
  * @link    https://www.genesiscustomizer.com/
  */
 
-// Starts the engine.
-require_once __DIR__ . '/vendor/autoload.php';
+// Starts the engine (do not remove).
+require_once get_stylesheet_directory() . '/vendor/autoload.php';
