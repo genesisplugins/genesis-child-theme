@@ -1,6 +1,6 @@
 [
   {
-    "name": "Genesis Customizer",
+    "name": "Genesis Customizer plugin",
     "host": "github",
     "slug": "genesis-customizer/genesis-customizer.php",
     "uri": "genesisplugins/genesis-customizer",
@@ -9,5 +9,3 @@
     "token": null
   }
 ]
-
-

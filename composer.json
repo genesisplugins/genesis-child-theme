@@ -14,5 +14,11 @@
     "files": [
       "../genesis/lib/init.php"
     ]
+  },
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true
   }
 }
