@@ -17,5 +17,5 @@ return [
 	'edd_remote_api_url'   => '',
 	'edd_item_name'        => '',
 	'edd_theme_slug'       => '',
-	'ready_big_button_url' => '',
+	'ready_big_button_url' => get_home_url(),
 ];
