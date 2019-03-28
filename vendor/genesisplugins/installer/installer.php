@@ -20,8 +20,8 @@ add_action( 'after_setup_theme', __NAMESPACE__ . '\setup_merlin' );
  * @return void
  */
 function setup_merlin() {
-	$config  = apply_filters( 'genesis_customizer_merlin_config', [] );
-	$strings = apply_filters( 'genesis_customizer_merlin_strings', [] );
+	$config  = apply_filters( 'genesis_customizer_merlin_config', require_once __DIR__ . '/config/merlin-config.php' );
+	$strings = apply_filters( 'genesis_customizer_merlin_strings', require_once __DIR__ . '/config/merlin-strings.php' );
 
 	new \Merlin( $config, $strings );
 }
