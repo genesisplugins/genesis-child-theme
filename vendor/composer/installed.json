@@ -77,17 +77,17 @@
         "description": "Simple library to persist dismissal of admin notices across pages in WordPress dashboard."
     },
     {
-        "name": "genesisplugins/installer",
+        "name": "genesiscustomizer/installer",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/genesisplugins/installer.git",
+            "url": "https://github.com/genesiscustomizer/installer.git",
             "reference": "bd632f338508b737784e32dd0d5fa09412017cb0"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/genesisplugins/installer/zipball/bd632f338508b737784e32dd0d5fa09412017cb0",
+            "url": "https://api.github.com/repos/genesiscustomizer/installer/zipball/bd632f338508b737784e32dd0d5fa09412017cb0",
             "reference": "bd632f338508b737784e32dd0d5fa09412017cb0",
             "shasum": ""
         },

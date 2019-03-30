@@ -4,8 +4,8 @@
  *
  * This file adds functions to the Genesis Customizer theme.
  *
- * @package GenesisPlugins\GenesisCustomizer
- * @author  GenesisPlugins
+ * @package GenesisCustomizer\Theme
+ * @author  SEO Themes
  * @license GPL-3.0-or-later
  * @link    https://www.genesiscustomizer.com/
  */

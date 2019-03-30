@@ -1,14 +1,14 @@
 {
-  "name": "genesisplugins/genesis-customizer-theme",
+  "name": "genesiscustomizer/theme",
   "authors": [
     {
-      "name": "genesisplugins",
-      "email": "genesisplugins@gmail.com"
+      "name": "seothemes",
+      "email": "seothemeswp@gmail.com"
     }
   ],
   "require": {
     "php": ">=5.6",
-    "genesisplugins/installer": "dev-master"
+    "genesiscustomizer/installer": "dev-master"
   },
   "autoload": {
     "files": [

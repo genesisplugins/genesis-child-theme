@@ -54,7 +54,7 @@ package.json export-ignore
 /vendor/composer/installed.json export-ignore
 /vendor/composer/LICENSE export-ignore
 
-/vendor/genesisplugins/installer/composer.json export-ignore
+/vendor/genesiscustomizer/installer/composer.json export-ignore
 
 /vendor/monolog/monolog/.php_cs export-ignore
 /vendor/monolog/monolog/CHANGELOG.md export-ignore

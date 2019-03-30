@@ -8,7 +8,7 @@ class ComposerStaticInitb9d45c20c47d7f49ff1a700f3795354c
 {
     public static $files = array (
         'a5f882d89ab791a139cd2d37e50cdd80' => __DIR__ . '/..' . '/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php',
-        '0c31565011fdc73de6da99cb05a94615' => __DIR__ . '/..' . '/genesisplugins/installer/installer.php',
+        '0c31565011fdc73de6da99cb05a94615' => __DIR__ . '/..' . '/genesiscustomizer/installer/installer.php',
         '8f8c825b708b062bca898c7d5365d10c' => __DIR__ . '/../..' . '/../genesis/lib/init.php',
     );
 
