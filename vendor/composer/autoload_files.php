@@ -6,7 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'a5f882d89ab791a139cd2d37e50cdd80' => $vendorDir . '/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php',
-    '0c31565011fdc73de6da99cb05a94615' => $vendorDir . '/genesiscustomizer/installer/installer.php',
-    '8f8c825b708b062bca898c7d5365d10c' => $baseDir . '/../genesis/lib/init.php',
+    '66cb6a3baafda811a121d437ef4f077f' => $vendorDir . '/genesiscustomizer/installer/installer.php',
+    '8131048447041ee9d43ee72a214e5bd3' => $baseDir . '/../genesis/lib/init.php',
 );

@@ -7,36 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInitb9d45c20c47d7f49ff1a700f3795354c
 {
     public static $files = array (
-        'a5f882d89ab791a139cd2d37e50cdd80' => __DIR__ . '/..' . '/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php',
-        '0c31565011fdc73de6da99cb05a94615' => __DIR__ . '/..' . '/genesiscustomizer/installer/installer.php',
-        '8f8c825b708b062bca898c7d5365d10c' => __DIR__ . '/../..' . '/../genesis/lib/init.php',
-    );
-
-    public static $prefixLengthsPsr4 = array (
-        'P' => 
-        array (
-            'Psr\\Log\\' => 8,
-            'ProteusThemes\\WPContentImporter2\\' => 33,
-        ),
-        'M' => 
-        array (
-            'Monolog\\' => 8,
-        ),
-    );
-
-    public static $prefixDirsPsr4 = array (
-        'Psr\\Log\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
-        ),
-        'ProteusThemes\\WPContentImporter2\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/proteusthemes/wp-content-importer-v2/src',
-        ),
-        'Monolog\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
-        ),
+        '66cb6a3baafda811a121d437ef4f077f' => __DIR__ . '/..' . '/genesiscustomizer/installer/installer.php',
+        '8131048447041ee9d43ee72a214e5bd3' => __DIR__ . '/../..' . '/../genesis/lib/init.php',
     );
 
     public static $classMap = array (
@@ -48,8 +20,6 @@ class ComposerStaticInitb9d45c20c47d7f49ff1a700f3795354c
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitb9d45c20c47d7f49ff1a700f3795354c::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitb9d45c20c47d7f49ff1a700f3795354c::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticInitb9d45c20c47d7f49ff1a700f3795354c::$classMap;
 
         }, null, ClassLoader::class);
